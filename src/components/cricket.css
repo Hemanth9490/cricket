@@ -5,9 +5,21 @@
     background-color: aliceblue;
     justify-content: center;
 }
+.codingChallenge{
+    color: blue;
+}
+.totalScore{
+    color: red;
+}
+.score{
+    color: rgb(255, 0, 0);
+}
 .body-container{
     display: flex;
     flex-direction: row;
+}
+.scroBoard{
+    color: brown;
 }
 .score-container{
  background-color: aqua;

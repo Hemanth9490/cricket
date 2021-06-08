@@ -61,14 +61,15 @@ class Cricket extends Component {
     const { score, totalScore, wickets,allOut } = this.state;
     return (
       <div className="text-center cricket-bg-container">
+        <h1 className="mb-5 codingChallenge">Day-8 100 days coding challenge</h1>
         <div className="body-container">
           <div className="col-4 m-3 score-container">
             {allOut ? <h1>ALL OUT</h1>:<h1 className="score">{score}</h1>}
           </div>
           <div className="col-8 m-3 score-board-container">
             <div className="scoreboard-heading">
-              <h1>Score Board</h1>
-              <h1>
+              <h1 className="scroBoard">Score Board</h1>
+              <h1 className="totalScore">
                 {totalScore}/{wickets}
               </h1>
               {allOut && <h1>ALL OUT</h1>}
